@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.clearfix {
+  clear: both;
+}
+.clearfix:after, .clearfix:before {
+  display: block;
+  content: "";
+  clear: both;
+}
+header, footer, main {
+  min-height: 100px;
+  border: 1px dotted red;
+  width: 100%;
+  display: block;
+}
+
+
+header {
+ background-color: black;
+}
+
+nav {
+  display: block;
+  background-color: #000000;
+}
+
+main {
+
+}
+/* nav */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+ul.buy-now {
+  margin: 0;
+  padding:0;
+}
+.logoText {
+  color: white;
+  text-align: center;
+}
+#banner {
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  background: url('http://wallpapercave.com/wp/rDKCPc4.jpg') top center no-repeat;
+}
+
+/* Grid */
+.row {
+  display: block;
+  width: 90%;
+  clear: both;
+  margin: 0 auto;
+}
+.row:before, .row:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.col-1, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,.col-10 {
+  float: left;
+}
+.video-content, .picture-content {
+
+}
+img {
+  width: 100%;
+}
+.col-3 {
+  width: 30.5%;
+}
+.col-4 {
+  width: 38.5%;
+}
+.col-5 {
+
+  width: 49.5%;
+}
+.content {
+  padding: 20px;
+}
